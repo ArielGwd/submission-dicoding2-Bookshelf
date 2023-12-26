@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookshelf Apps</title>
+    <meta name="description" content="Sebuah aplikasi sederhana tentang buku apa saja yang sudah dibaca atau yang ingin dibaca" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container navigation">
+        <div class="navbar">
+          <div class="logo">
+            <h1>
+              <div class="book"></div>
+              Bookshelf
+            </h1>
+          </div>
+
+          <form action="#" id="searchForm">
+            <input type="text" id="search" name="search" class="search-input" placeholder="Cari judul buku..." />
+          </form>
+
+          <div class="btn-tambah" id="btn-add-nav">
+            <div class="ipnavtambah"></div>
+            <span class="pnavtambah">+ Tambah Buku</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="content-book">
+        <div class="container">
+          <div class="add-book-content card" id="bg-add">
+            <form class="form" action="#" id="form">
+              <h2>Tambah buku</h2>
+              <div class="form-group form-title">
+                <label for="title">Judul Buku</label>
+                <input type="text" id="title" name="title" placeholder="Masukkan judul buku" required />
+              </div>
+
+              <div class="form-group form-title">
+                <label for="author">Author</label>
+                <input type="text" id="author" name="author" placeholder="Masukkan nama author" required />
+              </div>
+
+              <div class="form-group form-title">
+                <label for="date">Tahun</label>
+                <input type="date" id="date" name="date" required />
+              </div>
+
+              <div class="form-title checkbox">
+                <label for="sudah-dibaca">Sudah dibaca</label>
+                <input type="checkbox" name="success" id="sudah-dibaca" />
+              </div>
+
+              <div class="btn-aksi">
+                <p class="cancel" id="cancel">Batal</p>
+                <input type="submit" value="Tambah" name="Submit" class="btn-submit" />
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="content-items card">
+            <h2>Belum selesai dibaca</h2>
+            <div class="belum-selesai flex" id="belum-selesai"></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="content-items card">
+            <h2>Selesai dibaca</h2>
+            <div class="selesai-baca flex" id="selesai-baca"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; Copyright Ariel Gema Wardana 2023</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
