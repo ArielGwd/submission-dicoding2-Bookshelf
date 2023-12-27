@@ -1,5 +1,5 @@
 # Bookshelf Apps
-Bookshelf adalah aplikasi list buku yang sudah dibaca atau belum. Data yang diinput akan disimpan di local storage pada sisi client browser.
+Bookshelf adalah aplikasi list buku yang mana buku apa saja yang sudah dibaca atau belum. Data yang diinput akan disimpan di local storage pada sisi client browser.
 Untuk aplikasi ini belum responsive 😇
 
 ## Features
