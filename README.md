@@ -12,4 +12,4 @@ Untuk aplikasi ini belum responsive 😇
 Bookshelf Apps - https://arielwrdna-bookshelf.netlify.app
 
 ## Preview
-![MasterHead](https://cdn.discordapp.com/attachments/1173994847078723645/1189543281596579890/1227.gif?ex=6629a1c2&is=66285042&hm=4d578f9297d80644c9b8a466232bfc618c346208ec3cc1d71f8a8ce1b92fd71f&)
+![MasterHead](https://cdn.discordapp.com/attachments/1173994847078723645/1189425563622965258/Screenshot_2023-12-26_133737.png?ex=6629dce0&is=66288b60&hm=4cd7d5a171537a055f26df18d2d1e192dfba9dc693f073214e0d415fa118cb28&)
